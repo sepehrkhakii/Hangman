@@ -1,0 +1,108 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  /* font-family: "Times New Roman", Times, serif; */
+
+  font-weight: bold;
+  /* color: rgb(228, 112, 3); */
+}
+.parent {
+  background-color: rgba(26, 29, 71, 0.966);
+  padding: 3rem 2rem;
+}
+#name {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(228, 112, 3);
+  font-family: "Times New Roman", Times, serif;
+}
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+}
+#letters {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2rem 2rem;
+  color: rgb(228, 112, 3);
+}
+#letters li {
+  font-size: 20px;
+
+  list-style-type: none;
+  border: 2px solid rgb(228, 112, 3);
+  width: 40px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  text-align: center;
+}
+#image {
+  /* text-align: center; */
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+#clue {
+  font-size: 20px;
+  color: rgb(228, 112, 3);
+  font-family: monospace;
+
+  text-align: center;
+  letter-spacing: 0.5rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#over {
+  font-size: 30px;
+  color: rgb(206, 0, 0);
+
+  text-shadow: 0px 0px 20px snow;
+  text-align: center;
+  display: none;
+}
+#letters li:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 16px 4px rgb(228, 112, 3);
+}
+#idea {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: rgb(31, 231, 91);
+  /* letter-spacing: 0.5rem; */
+  font-family: monospace;
+  display: block;
+}
+.used {
+  background-color: rgb(228, 149, 76);
+  box-shadow: 0px 0px 16px 4px rgb(228, 112, 3);
+
+  color: black;
+}
+#btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+#btn button {
+  width: 110px;
+  height: 40px;
+  border: 1px solid crimson;
+  border-radius: 8px;
+  background-color: crimson;
+  cursor: pointer;
+  color: snow;
+  display: none;
+}
+#btn button:hover {
+  box-shadow: 0px 0px 20px rgb(236, 5, 94);
+}
